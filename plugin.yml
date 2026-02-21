@@ -1,0 +1,25 @@
+# VillagerWorkers Plugin Configuration
+
+# This is a sample plugin configuration file for the Minecraft VillagerWorkers plugin.
+
+# General Settings
+settings:
+  enable: true
+  version: "1.0"
+
+# Villager Types
+villagers:
+  - type: farmer
+    breed: true
+  - type: librarian
+    trade: true
+  - type: blacksmith
+    craft: true
+
+# Permissions
+permissions:
+  default: 
+    - villager.use
+    - villager.trade
+  admin: 
+    - villager.admin
